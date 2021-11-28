@@ -1,0 +1,99 @@
+.sideBarLeft {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.name_user {
+    display: flex;
+    margin-top: 75px;
+    padding: 8px 10px;
+}
+
+.name_user .user__avatar1 {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+.name_user p {
+    padding-left: 12px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.material__icons1 {
+    display: flex;
+    font-size: 26px;
+    padding: 6px 0px;
+    width: 335px;
+}
+
+.material__icons1 .user__avatar2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.material__icons1 .color1 {
+    width: 55px;
+    padding-left: 10px;
+}
+
+.material__icons1 .text p {
+    font-size: 15px;
+    color: black;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.material__icons1 .text1 p {
+    font-size: 15px;
+    color: black;
+    margin-bottom: -13px;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.material__icons1 .text1 span {
+    font-size: 12px;
+    color: #197de8;
+}
+
+.material__icons1 .angleDown {
+    font-size: 20px;
+    margin: 5px 10px;
+    background-color: #d8dadfde;
+    border-radius: 20px;
+    height: 35px;
+    color: rgba(0, 0, 0, 0.664);
+    width: 35px;
+    padding: 4px 5px;
+    text-align: center;
+}
+
+.material__icons1:hover,
+.name_user:hover {
+    background-color: #e4e6e9;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.lineSpace {
+    opacity: 0.5;
+    margin: 10px 10px;
+}
+
+.sideBarDown .shortCuts p {
+    padding: 0px 10px;
+    color: #65676b;
+    font-size: 17px;
+}
+
+.finally_text {
+    color: #65676b;
+    font-size: 12px;
+    margin: 10px 20px;
+}

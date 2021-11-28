@@ -1,0 +1,228 @@
+.box_sideBarRight {
+    font-weight: 550;
+    margin-top: 90px;
+}
+
+.box_sideBarRight .listAddFriends {
+    background-color: white;
+    box-shadow: 5px 5px 5px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+.box_sideBarRight .addFriends {
+    display: flex;
+}
+
+.box_sideBarRight .addFriends img {
+    width: 65%;
+    object-fit: cover;
+}
+
+.box_sideBarRight .addFriends .ellipsish {
+    margin-left: 115px;
+    height: 30px;
+    width: 30px;
+    color: rgba(0, 0, 0, 0.719);
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.box_sideBarRight .addFriends .ellipsish:hover {
+    height: 30px;
+    width: 30px;
+    background-color: rgba(102, 102, 102, 0.116);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.user_add_friends {
+    display: flex;
+    padding: 5px 5px;
+}
+
+.user_add_friends img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.user_add_friends .infor_add_friends .name_time {
+    display: flex;
+    margin-left: 5px;
+}
+
+.user_add_friends .infor_add_friends .name_time .name p {
+    font-size: 15px;
+}
+
+.user_add_friends .infor_add_friends .name_time .name span {
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+}
+
+.user_add_friends .infor_add_friends .name_time .time p {
+    font-size: 13px;
+    color: #666;
+    margin-left: 120px;
+    font-weight: 400;
+}
+
+.user_add_friends .infor_add_friends .btn_friends {
+    margin-top: 20px;
+    width: 235px;
+    height: 35px;
+    display: flex;
+}
+
+.user_add_friends .infor_add_friends .btn_friends button {
+    width: 235px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.user_add_friends .infor_add_friends .btn_friends button:nth-child(1) {
+    background-color: #1771e6e0;
+    color: white;
+}
+
+.user_add_friends .infor_add_friends .btn_friends button:nth-child(2) {
+    background-color: #d8dadf;
+}
+
+.user_add_friends:hover {
+    cursor: pointer;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+}
+
+.hr_tag hr {
+    background-color: rgba(102, 102, 102, 0.247);
+    height: 1.5px;
+    border: none;
+    border-radius: 200px;
+    margin: 15px 5px;
+}
+
+.advertise {
+    padding: 0px 5px;
+}
+
+.advertise p {
+    color: #74767a;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.advertise img {
+    width: 150px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    object-fit: cover;
+}
+
+.advertise .content_adver {
+    display: flex;
+    padding: 0px 5px;
+}
+.advertise .text_adver {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.advertise .text_adver p {
+    color: black;
+    font-size: 15px;
+}
+
+.advertise .text_adver span {
+    color: #737679d5;
+    font-size: 13px;
+}
+
+.content_adver:hover {
+    cursor: pointer;
+    background-color: #e4e6e9;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.listFriends {
+    padding: 0px 5px;
+}
+
+.listFriends .contact_friends {
+    display: flex;
+}
+
+.listFriends .contact_friends p {
+    color: #65676b;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-right: 90px;
+}
+
+.listFriends .contact_friends .contact_icons {
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    color: #65676b;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 15px;
+}
+
+.listFriends .contact_friends .contact_icons:hover {
+    height: 30px;
+    width: 30px;
+    background-color: rgba(102, 102, 102, 0.116);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.listFriends .avt_friends {
+    width: 300px;
+    display: flex;
+    padding: 5px 5px;
+    position: relative;
+}
+
+.listFriends .avt_friends:hover {
+    background-color: #e4e6e9;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.listFriends .avt_friends img {
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.listFriends .avt_friends .online_green {
+    background-color: green;
+    width: 11px;
+    height: 11px;
+    border-radius: 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 2px solid white;
+}
+
+.listFriends .avt_friends p {
+    margin-left: 10px;
+    color: #343435;
+}

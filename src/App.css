@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.wrapper{
+  background-color: #F0F2F5;
+  width: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main__body{
+    display: flex;
+    justify-content: space-between;
+    padding : 0px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scroll_left{
+  overflow: scroll;
+  position: fixed;
+  height: 760px;
+  width: 25%;
 }
+
+.post__infor{
+  margin-left: 28%;
+  width: 43%;
+}
+
+.right{
+  position: fixed;
+  overflow: scroll;
+  height: 760px;
+  width: 25%;
+  left: 75%;
+  padding-right: 15px;
+}
+
+.story_main{
+  margin-top: 75px;
+}
+
+.wrapper .newFeeds{
+  margin: 0px auto;
+}
+
+.formAddPost {
+  padding-top: 10px;
+}
+
+
+
+.scroll_left::-webkit-scrollbar{
+  width: 16px;
+  height: 40px;
+}
+ 
+.scroll_left::-webkit-scrollbar-thumb {
+  background: #F0F2F5;
+  border-radius: 10px;
+}
+
+.scroll_left::-webkit-scrollbar-thumb:hover {
+  background: #bcc0c4;
+  border: 4px solid #E5E8EB;
+  border-radius: 10px;
+}
+
+.right::-webkit-scrollbar{
+  width: 16px;
+  height: 40px;
+}
+ 
+.right::-webkit-scrollbar-thumb {
+  background: #F0F2F5;
+  border-radius: 10px;
+}
+
+.right::-webkit-scrollbar-thumb:hover {
+  background: #bcc0c4;
+  border: 4px solid #E5E8EB;
+  border-radius: 10px;
+}
+
+
