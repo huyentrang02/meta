@@ -4,9 +4,7 @@ import './Story.css'
 const Story = () => {
   return (
     <div className="feed">
-      <div className="storyReel">
-        <div className="story" style={{ backgroundImage: `url('images/cute2.jpg')` }}>
-        </div>
+      <div className="story" style={{ backgroundImage: `url('images/cute2.jpg')` }}>
       </div>
       <div className="story" style={{ backgroundImage: `url('images/cute2.jpg')` }}>
         <img

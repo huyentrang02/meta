@@ -1,80 +1,76 @@
-.wrapper{
-  background-color: #F0F2F5;
+.wrapper {
+  background-color: #f0f2f5;
   width: 100%;
   min-height: 100vh;
 }
 
-.main__body{
-    display: flex;
-    justify-content: space-between;
-    padding : 0px 10px;
+.main__body {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
 }
 
-.scroll_left{
+.scroll_left {
   overflow: scroll;
   position: fixed;
-  height: 760px;
+  height: 105vh;
   width: 25%;
 }
 
-.post__infor{
+.post__infor {
   margin-left: 28%;
   width: 43%;
 }
 
-.right{
+.right {
   position: fixed;
   overflow: scroll;
-  height: 760px;
+  height:105vh;
   width: 25%;
   left: 75%;
   padding-right: 15px;
 }
 
-.story_main{
-  margin-top: 75px;
+.story_main {
+  margin-top: 80px;
 }
 
-.wrapper .newFeeds{
+.wrapper .newFeeds {
   margin: 0px auto;
 }
 
 .formAddPost {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
-
-
-.scroll_left::-webkit-scrollbar{
+.scroll_left::-webkit-scrollbar {
   width: 16px;
   height: 40px;
 }
- 
+
 .scroll_left::-webkit-scrollbar-thumb {
-  background: #F0F2F5;
+  background: #f0f2f5;
   border-radius: 10px;
 }
 
 .scroll_left::-webkit-scrollbar-thumb:hover {
   background: #bcc0c4;
-  border: 4px solid #E5E8EB;
+  border: 4px solid #e5e8eb;
   border-radius: 10px;
 }
 
-.right::-webkit-scrollbar{
+.right::-webkit-scrollbar {
   width: 16px;
   height: 40px;
 }
- 
+
 .right::-webkit-scrollbar-thumb {
-  background: #F0F2F5;
+  background: #f0f2f5;
   border-radius: 10px;
 }
 
 .right::-webkit-scrollbar-thumb:hover {
   background: #bcc0c4;
-  border: 4px solid #E5E8EB;
+  border: 4px solid #e5e8eb;
   border-radius: 10px;
 }
-
-
